@@ -2,6 +2,16 @@
 
 All notable changes to the "swapdiff" extension will be documented in this file.
 
+## [0.3.0] - 2023-09-23
+
+### Added
+
+- Button to swap diffs
+
+### Fixed
+
+- Compare active file with clipboard
+
 ## [0.2.1] - 2023-06-22
 
 ### Fixed

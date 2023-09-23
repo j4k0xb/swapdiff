@@ -1,9 +1,9 @@
 {
-  "name": "swapdiff",
-  "displayName": "swapdiff",
+  "name": "swap-diff",
+  "displayName": "Swap Diff",
   "description": "Swap diff documents",
   "version": "0.2.1",
-  "publisher": "shalimski",
+  "publisher": "j4k0xb",
   "license": "SEE LICENSE IN LICENSE.md",
   "icon": "images/icon.png",
   "keywords": [
@@ -11,13 +11,13 @@
     "diff"
   ],
   "bugs": {
-    "url": "https://github.com/shalimski/swapdiff/issues"
+    "url": "https://github.com/j4k0xb/swapdiff/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shalimski/swapdiff.git"
+    "url": "https://github.com/j4k0xb/swapdiff.git"
   },
-  "homepage": "https://github.com/shalimski/swapdiff/blob/master/README.md",
+  "homepage": "https://github.com/j4k0xb/swapdiff/blob/master/README.md",
   "engines": {
     "vscode": "^1.79.1"
   },
@@ -28,7 +28,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "swapdiff.swapdiff",
+        "command": "swap-diff.swapdiff",
         "title": "Swap diff documents",
         "icon": "$(arrow-swap)"
       }
@@ -36,7 +36,7 @@
     "menus": {
       "editor/title": [
         {
-          "command": "swapdiff.swapdiff",
+          "command": "swap-diff.swapdiff",
           "when": "isInDiffEditor",
           "group": "navigation"
         }
@@ -46,7 +46,7 @@
       {
         "title": "swapdiff",
         "properties": {
-          "swapdiff.ClosePreviousDiff": {
+          "swap-diff.closePreviousDiff": {
             "type": "boolean",
             "default": false,
             "description": "Close previous diff after switching",

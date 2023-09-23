@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand("swapdiff.swapdiff", () => {
+  let disposable = vscode.commands.registerCommand("swap-diff.swapdiff", () => {
     const tab = vscode.window.tabGroups.activeTabGroup.activeTab;
     const input = tab?.input;
     const isDiffTab =
@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     const closePrevious = vscode.workspace
       .getConfiguration()
-      .get("swapdiff.ClosePreviousDiff");
+      .get("swap-diff.ClosePreviousDiff");
 
     if (closePrevious) {
       vscode.window.tabGroups.close(tab);
