@@ -6,9 +6,13 @@ Quickly swaps out documents open in diff mode
 
 ## Install
 
-Launch VS Code Extension Marketplace (Ctrl/Cmd+Shift+X), print 'swapdiff', and press enter.
+- VS Code Marketplace: <https://marketplace.visualstudio.com/items?itemName=j4k0xb.swap-diff>
+- Open VSX: <https://open-vsx.org/extension/j4k0xb/swap-diff>
 
 ## Commands
 
-* `extension.swapdiff.swapdiff`: Swap diff documents
+- `extension.swap-diff.swapdiff`: Swap diff documents
 
+## Settings
+
+- `swap-diff.closePreviousDiff`: Close previous diff after switching
